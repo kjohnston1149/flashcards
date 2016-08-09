@@ -11,7 +11,7 @@ $(function() {
 // Next Button
   $("#next").click(function() {
     $("#" + current).addClass("hidden");
-    if (counter = 19) {
+    if (counter === 19) {
       counter = 1;
     } else {
       counter += 1;
@@ -25,7 +25,7 @@ $(function() {
 // Previous Button
   $("#prev").click(function() {
     $("#" + current).addClass("hidden");
-    if (counter = 1) {
+    if (counter === 1) {
       counter = 19;
     } else {
       counter -= 1;
