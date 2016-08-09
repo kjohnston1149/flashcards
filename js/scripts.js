@@ -46,4 +46,20 @@ $(function() {
     $("#" + current).removeClass("hidden");
   });
 
+// Term List
+  $(".term").click(function() {
+    $("#" + current).addClass("hidden");
+    counter = $(this).val();
+    current = "card" + counter;
+    $("p").hide();
+    $("ul").hide();
+    $("#" + current).removeClass("hidden");
+  });
+
+  $("#termListTitle").click(function() {
+    $("#termListItems").toggle();
+  });
+
+
+
 });

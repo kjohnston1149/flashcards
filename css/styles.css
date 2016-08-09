@@ -11,10 +11,21 @@
   cursor: pointer;
 }
 
-.card p, ul {
+.card p, ul, #termListItems {
   display: none;
 }
 
 #card1 {
   display: block;
+}
+
+#termList {
+  width: 25%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ol li {
+  padding: 5px;
+  border-bottom: 1px solid black;
 }
