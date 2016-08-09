@@ -11,7 +11,7 @@
   cursor: pointer;
 }
 
-.card p {
+.card p, ul {
   display: none;
 }
 
